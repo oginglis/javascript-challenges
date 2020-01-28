@@ -1,0 +1,54 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1530177150700-84cd9a3b059b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1834&q=80.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }
+
+.clock-border {
+  height: 400px;
+  width: 400px;
+  background-color: rgba(1, 1, 1, 0.5);
+  border-radius: 50%;
+  display: inline-block;
+  border: 10px solid white;
+  position: relative; }
+
+.hour {
+  background-color: black;
+  width: 130px;
+  height: 10px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform-origin: center right;
+  transform: rotate(45deg);
+  transition: all 0.5s;
+  transition-timing-function: ease-in-out; }
+
+.minute {
+  background-color: grey;
+  width: 190px;
+  height: 7px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform-origin: center right;
+  transform: rotate(360deg);
+  transition: all 0.5s;
+  transition-timing-function: ease-in-out; }
+
+.second {
+  background-color: pink;
+  width: 190px;
+  height: 3px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform-origin: center right;
+  transform: rotate(90deg);
+  transition: all 0.5s;
+  transition-timing-function: ease-in-out; }
+
+/*# sourceMappingURL=daytwo_clock.css.map */
