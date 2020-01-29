@@ -6,6 +6,7 @@
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  font-family: 'Roboto Mono', monospace;
   /* Change the link color to #111 (black) on hover */ }
   .nav_bar li {
     float: left; }

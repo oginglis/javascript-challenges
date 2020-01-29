@@ -1,0 +1,24 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Roboto Mono', monospace; }
+
+.picture {
+  background-image: url(https://images.unsplash.com/photo-1516205651411-aef33a44f7c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2843&q=80.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 80vw;
+  filter: blur(0 px);
+  z-index: -100;
+  background-blend-mode: multiply; }
+
+.iputs {
+  display: inline-block;
+  margin: 10px; }
+
+/*# sourceMappingURL=day_three.css.map */

@@ -10,7 +10,7 @@ body {
 }
 
 .key {
-  font-family: helvetica;
+  font-family: 'Roboto Mono', monospace;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -31,6 +31,7 @@ body {
   p {
     margin: 5px;
     color: yellow;
+    font-family: 'Roboto Mono', monospace;
   }
 }
 
