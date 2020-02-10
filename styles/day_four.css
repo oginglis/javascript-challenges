@@ -1,0 +1,46 @@
+body {
+  background-color: #FFC701;
+  height: 100vh;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+
+input {
+  flex: 0 0 auto;
+  width: 400px;
+  height: 67px;
+  padding: 10px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #F8F6F8;
+  outline: none;
+  font: 400 15px 'Roboto Mono';
+  text-align: center; }
+
+#list {
+  list-style-type: none;
+  padding-inline-start: 0px;
+  width: 437px;
+  margin: 0; }
+  #list li {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #F8F6F8;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    margin: -3px; }
+
+.highlight {
+  background-color: #FFFF00; }
+
+.title {
+  margin-top: 60px;
+  font-size: 20px; }
+
+/*# sourceMappingURL=day_four.css.map */
