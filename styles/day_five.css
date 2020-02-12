@@ -1,0 +1,15 @@
+body {
+  background-color: #FFC7B4;
+  height: 100vh;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+
+.titlecard {
+  position: fixed;
+  top: 50vh;
+  z-index: -100; }
+
+/*# sourceMappingURL=day_five.css.map */
