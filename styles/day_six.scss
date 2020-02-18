@@ -26,3 +26,7 @@ body {
 .label {
   margin: 10px;
 }
+
+.label.done {
+  text-decoration: line-through;
+}

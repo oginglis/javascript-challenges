@@ -10,12 +10,25 @@ body {
 .form-work {
   padding: 10px;
   border: 1px solid;
-  box-shadow: 10px 10px; }
+  box-shadow: 10px 10px;
+display: flex;
+flex-direction: column;
+align-items: center}
 
 .checker {
   margin: 10px; }
 
 .label {
-  margin: 10px; }
+  margin: 10px;
+}
 
+.label.done {
+  text-decoration: line-through;
+}
+
+.list-title{
+  display:inline-block;
+  text-align: center;
+  border-bottom: 1px solid;
+}
 /*# sourceMappingURL=day_six.css.map */
