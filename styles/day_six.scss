@@ -1,0 +1,28 @@
+body {
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  font-family: 'Roboto Mono', monospace;
+
+  background-color: #FFC701;
+}
+
+.form-work {
+  padding: 10px;
+
+  border: 1px solid;
+
+  box-shadow: 10px 10px;
+}
+
+.checker {
+  margin: 10px;
+}
+
+.label {
+  margin: 10px;
+}
