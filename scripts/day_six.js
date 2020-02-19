@@ -8,6 +8,7 @@ function handleClick(e) {
   console.log(this)
 }
 
+
 list.forEach((item) => {
   item.addEventListener("click", handleClick);
 });
