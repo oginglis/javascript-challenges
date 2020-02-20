@@ -4,9 +4,10 @@
   <meta charset="UTF-8">
   <title>Javascript Challenges</title>
   <link rel="stylesheet" href="./styles/nav_bar.css">
-  <link rel="stylesheet" href="./styles/day_five.css">
+  <link rel="stylesheet" href="./styles/day_seven.css">
   <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
   <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/video.min.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -19,8 +20,19 @@
     <li><a href="day_six.html">6</a></li>
     <li><a href="day_seven.html">7</a></li>
   </ul>
-  <h1 class="titlecard">draw on me</h1>
-  <canvas id="draw" width="800" height="800" class="canvas"> </canvas>
-<script src="./scripts/day_five.js"></script>
+  <div class="wrapper">
+    <video class="video" src="./videos/vid.mp4" width="700px" controls loop></video>
+    <div class="progress">
+      <div class="progress-filled"></div>
+    </div>
+    <div class="controls">
+      <input type="range" class="controls-range volume" min="0" max="1" step="0.05" value="1">
+      <input type="range" class="controls-range speed" min="0.5" max="2" step="0.1" value="1">
+      <button class="controls-range play-button">▷</button>
+    </div>
+  </div>
+
+
+<script src="./scripts/day_seven.js"></script>
 </body>
 </html>
