@@ -20,15 +20,22 @@
     <li><a href="day_six.html">6</a></li>
     <li><a href="day_seven.html">7</a></li>
   </ul>
+  <h1 class="title">Custom HTML video player</h1>
   <div class="wrapper">
-    <video class="video" src="./videos/vid.mp4" width="700px" controls loop></video>
-    <div class="progress">
-      <div class="progress-filled"></div>
-    </div>
-    <div class="controls">
-      <input type="range" class="controls-range volume" min="0" max="1" step="0.05" value="1">
-      <input type="range" class="controls-range speed" min="0.5" max="2" step="0.1" value="1">
-      <button class="controls-range play-button">▷</button>
+    <video class="video" src="./videos/vid.mp4" width="700px" loop></video>
+    <div class="controls-wrapper">
+      <div class="progress">
+        <div class="progress-filled"></div>
+      </div>
+      <div class="controls">
+        <button class="controls-range play-button">►</button>
+        <label for="vol">VOLUME</label>
+        <input type="range" class="controls-range volume" name="vol" min="0" max="1" step="0.05" value="1">
+        <label for="speed">SPEED</label>
+        <input type="range" class="controls-range speed" name="speed" min="0.5" max="2" step="0.1" value="1">
+        <button class="skip-1"><<</button>
+        <label for="">RESTART</label>
+      </div>
     </div>
   </div>
 
