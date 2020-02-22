@@ -1,0 +1,50 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto Mono', monospace;
+  background-color: #F4F4F1;
+  padding-top: 60px;
+}
+
+.title {
+  margin-bottom: 45px;
+}
+
+.poem-text {
+  white-space: pre-line;
+
+}
+
+.nav-div {
+  position: relative;
+}
+
+.nav_bar {
+  display: inline;
+}
+
+.img1 {
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.poem {
+  background-color: #FFFFFF;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-bottom: 60px;
+}
+
+.slide-in {
+  transform: translateX(-30px);
+  opacity: 0;
+}
+
+.slide-in.img1.active {
+  transform: translateX(0px);
+  transition: all 0.5s ease;
+  opacity: 1;
+}
