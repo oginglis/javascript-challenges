@@ -1,0 +1,102 @@
+body {
+  font-family: Roboto Mono, monospace;
+  height: 100vh;
+  position: relative;
+  color: white;
+  margin: 0;
+  overflow:hidden;
+}
+
+.panels {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+.panel1 {
+  flex-grow: 1;
+  background-image: url(https://images.unsplash.com/photo-1582581284343-70f34198dda8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  transition: flex-grow 1s ease;
+}
+
+.panel2 {
+  flex-grow: 1;
+  background-image: url(https://images.unsplash.com/photo-1582582627300-8103dd62aa5e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  transition: flex-grow 1s ease;
+}
+
+.panel3 {
+  flex-grow: 1;
+  background-image: url(https://images.unsplash.com/photo-1582601062994-c7fd281951a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  transition: flex-grow 1s ease;
+}
+
+.panel4 {
+  flex-grow: 1;
+  background-image: url(https://images.unsplash.com/photo-1582603129138-f9d2fe4175b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  transition: flex-grow 1s ease;
+}
+.panel5{
+  flex-grow: 1;
+  background-image: url(https://images.unsplash.com/photo-1480569798454-4c8d2d1cf5e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  transition: flex-grow 1s ease;
+}
+
+.panel.active {
+  flex-grow: 3;
+}
+
+.panel > h3:nth-child(2) {
+  transition: all 1s ease;
+}
+
+.panel.active > h3:nth-child(2) {
+  font-size: 50px;
+}
+
+.panel.active > h3:nth-child(1) {
+  transform: translateY(0);
+  font-size: 30px;
+
+}
+
+.panel> h3:nth-child(1) {
+  transform: translateY(-50vh);
+  transition: all 1s ease;
+}
+
+.panel.active > h3:nth-child(3) {
+  transform: translateY(0);
+  font-size: 30px;
+}
+
+.panel > h3:nth-child(3) {
+  transform: translateY(50vh);
+  transition: all 1s ease;
+}

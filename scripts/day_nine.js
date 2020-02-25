@@ -14,7 +14,7 @@ const isScrolledIntoView = (el) => {
     let elemTop = rect.top;
     let elemBottom = rect.bottom;
     let isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
-    let visible = (window.innerHeight - elemTop) >= (rect.height / 4)
+    let visible = (window.innerHeight - elemTop) >= (rect.height / 8)
     return visible;
 }
 
