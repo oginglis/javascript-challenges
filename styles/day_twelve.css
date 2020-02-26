@@ -1,0 +1,22 @@
+body {
+  font-family: Roboto Mono, monospace;
+  height: 100vh;
+  margin: 0;
+  background: rgb(255,193,170);
+  background: -webkit-linear-gradient(left, rgba(255,193,170,1) 0%, rgba(167,144,170,1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 100px;
+  text-align: center;
+  transform: rotate(-15deg);
+}
+
+.intro-title {
+  font-size: 20px;
+  position: fixed;
+  top: 50px;
+}
