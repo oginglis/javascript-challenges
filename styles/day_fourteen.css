@@ -1,0 +1,40 @@
+body {
+  font-family: Roboto Mono, monospace;
+  height: 100vh;
+  margin: 0;
+  background: rgb(255,193,170);
+}
+
+.videos {
+  list-style: none;
+  margin: auto;
+  width: 60vw;
+  padding: 0px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 15px;
+}
+
+
+.page-title {
+  text-align: center;
+  font-size: 20px;
+  width: 60vw;
+  margin: auto;
+  display: block;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.button {
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  display: block;
+  height: 100px;
+  width: 300px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
