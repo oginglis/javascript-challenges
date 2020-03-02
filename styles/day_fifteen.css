@@ -1,0 +1,16 @@
+body {
+  background-color: #D1683B;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.notepad {
+  margin-top: 80px;
+  background-image: url('../images/linedpaper.png');
+  height: 200px;
+  width: 50vw;
+  background-repeat: repeat;
+  padding: 10px
+}
